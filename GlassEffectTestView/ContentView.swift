@@ -36,7 +36,7 @@ struct ContentView: View {
                                 
                             }
                             .frame(width:100,height:100)
-                            .glassEffect(.regular)
+                            .glassEffect(.clear)
                             .glassEffectID("parent", in: namespace)
                             .glassEffectTransition(.matchedGeometry)
                             
